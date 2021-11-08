@@ -13,7 +13,7 @@ jobs:
     steps:
     - name: Install all Rdp.
       run: |
-        Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
+        Invoke-WebRequest https://go.microsoft.com/fwlink/?LinkId=691209 -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/RealZytek/rdp/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/RealZytek/rdp/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/RealZytek/rdp/main/wallpaper.bat -OutFile wallpaper.bat
